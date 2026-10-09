@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <!-- TODO: Design the UI with QLineEdit, QPushButton, and QListWidget in a QVBoxLayout -->
-</ui> 
+ <class>ToDoList</class>
+ <widget class="QWidget" name="ToDoList">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="inputLayout">
+     <item><widget class="QLineEdit" name="taskInput"/></item>
+     <item><widget class="QPushButton" name="addButton"><property name="text"><string>Add</string></property></widget></item>
+    </layout>
+   </item>
+   <item><widget class="QListWidget" name="taskList"/></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
